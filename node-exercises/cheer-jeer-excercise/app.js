@@ -2,11 +2,11 @@ var express = require('express');
 var app = express();
 
 app.get('/cheer.txt', function(request, response){
-    res.end('You have quote lovey eyes.');
+    response.end('You have quote lovey eyes.');
 });
 
 app.get('/jeer.txt', function(request, response){
-    res.end('You have issues');
+    response.end('You have issues');
 });
 
 var server = app.listen(8080, function(){
