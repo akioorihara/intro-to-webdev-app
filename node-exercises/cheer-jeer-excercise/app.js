@@ -6,9 +6,9 @@ app.get('/cheer.txt', function(request, response){
 });
 
 app.get('/jeer.txt', function(request, response){
-    res.end('hello world');
+    res.end('You have issues');
 });
 
-var server = app.listen(8080, fucuntion(){
+var server = app.listen(8080, function(){
     console.log('listening on the port 8080');
 });
